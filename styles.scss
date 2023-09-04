@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(90deg, rgba(235,129,75,1) 0%, rgba(246,125,84,1) 5%, rgba(246,137,240,1) 51%, rgba(231,139,233,1) 53%, rgba(56,194,222,1) 94%);
+    height:100vh;
+}
+
+.digital-clock {
+    margin: auto;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    border: 2px solid #999;
+    border-radius: 15px;
+    text-align: center;
+    font: 50px/60px 'DIGITAL', Helvetica;
+    background: linear-gradient(90deg,#ffe678 , #f7ebb7);
+  }
