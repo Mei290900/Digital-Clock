@@ -2,6 +2,11 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: digital7;
+    src: url(digital-7\ \(mono\ italic\).ttf);
 }
 
 body{   
@@ -22,10 +27,12 @@ body{
     background: #d3bbc1;
     box-shadow: inset 25px 25px 49px #98878b,
             inset -25px -25px 49px #ffeff7;
+    animation: animate 0.5s linear infinite;
+    font-family: 'digital7';
     .time{
-         color: #444041;                 
-         font: 'DIGITAL', Helvetica;
-         font-size: 60px; 
+         color: #444041;                
+         
+         font-size: 50px; 
          
     }
   }

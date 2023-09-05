@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: digital7;
+  src: url(digital-7\ \(mono\ italic\).ttf);
+}
 body {
   background: #d3bbc1;
   display: flex;
@@ -21,9 +25,10 @@ body {
   border-radius: 69px;
   background: #d3bbc1;
   box-shadow: inset 25px 25px 49px #98878b, inset -25px -25px 49px #ffeff7;
+  animation: animate 0.5s linear infinite;
+  font-family: "digital7";
 }
 .digital-clock .time {
   color: #444041;
-  font: "DIGITAL", Helvetica;
-  font-size: 60px;
+  font-size: 50px;
 }/*# sourceMappingURL=styles.css.map */
