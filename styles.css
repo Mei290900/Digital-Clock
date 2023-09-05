@@ -1,22 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: linear-gradient(90deg, rgb(235, 129, 75) 0%, rgb(246, 125, 84) 5%, rgb(246, 137, 240) 51%, rgb(231, 139, 233) 53%, rgb(56, 194, 222) 94%);
+  background: #d3bbc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 
 .digital-clock {
-  margin: auto;
-  position: absolute;
-  padding: 10px;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 200px;
-  height: 60px;
-  color: #ffffff;
-  border: 2px solid #999;
-  border-radius: 15px;
-  text-align: center;
-  font: 50px/60px "DIGITAL", Helvetica;
-  background: linear-gradient(90deg, #ffe678, #f7ebb7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 150px;
+  border-radius: 69px;
+  background: #d3bbc1;
+  box-shadow: inset 25px 25px 49px #98878b, inset -25px -25px 49px #ffeff7;
+}
+.digital-clock .time {
+  color: #444041;
+  font: "DIGITAL", Helvetica;
+  font-size: 60px;
 }/*# sourceMappingURL=styles.css.map */
